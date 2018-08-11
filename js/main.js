@@ -1,10 +1,9 @@
 
 
 
-// document.getElementById("main").blur(50);
 
 $(".button-1").hover(function() {
-  $("body").css("background-color", this.className);
+  $(".blur").css("background-color", "");
 }, function() {
-  $("body").css("background-color", "");
+  $(".blur-box").css("background-color", "red");
 })
