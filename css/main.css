@@ -26,15 +26,13 @@ body > div {
 	height: 100%;
 	width: 100%;
 	background-color: #e4d7ff;
-	transition: 1s ease;
+	transition: .4s ease;
 }
 
 section {
     color: white;
     font-size:50px;
     font-weight:bold;
-    /*position:relative;
-    position:absolute;*/
     width: 80%;
     height: 1000px;
     z-index:9999;
@@ -45,9 +43,11 @@ section {
     filter: blur(0px);
     margin: auto;
     margin-top: 100px;
-    background-color: rgba(239, 95, 167, .7);
+    background-color: rgba(239, 95, 167, .9);
     padding-top: 10%;
-    opacity: .8;
+    opacity: .9;
+    border: 6px solid black;
+    border-radius: 50px;
 }
 
  button {
@@ -55,14 +55,14 @@ section {
 	padding: 10px;
 	margin: 20px 30px;
 	cursor: pointer;
-	background-color: rgba(239,95,167, .7);
+	background-color: rgba(239,95,167, .5);
 	color: #fff;
 	border: 3px solid #fff;
-	transition: all .5s ease-in-out;
+	transition: all .7s ease-in-out;
 }
 
 button:hover {
-	opacity: .5;
+	opacity: 1;
 }
 
 img {
